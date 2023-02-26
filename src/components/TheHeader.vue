@@ -1,6 +1,18 @@
 <template>
   <header>
-    <nav>Logo</nav>
+    <nav>
+      <div class="logo">
+        <router-link to="/">Techno</router-link>
+      </div>
+      <ul>
+        <li>
+          <router-link to="/cursos">Cursos</router-link>
+        </li>
+        <li>
+          <router-link to="/contato">Contato</router-link>
+        </li>
+      </ul>
+    </nav>
   </header>
 </template>
 
@@ -10,3 +22,42 @@ export default {
   name: "TheHeader"
 }
 </script>
+
+<style scoped>
+header {
+  background: #234;
+}
+
+header a {
+  color: white;
+}
+
+a.router-link-active {
+  color: #4b8;
+ }
+
+nav {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo a {
+  color: white;
+  font-size: 1.rem;
+}
+
+ul li {
+  display: inline-block;
+}
+
+li a {
+  padding: 0 10px;
+}
+</style>

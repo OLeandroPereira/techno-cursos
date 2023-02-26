@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/HomePage.vue'
-import Contato from './views/ContatoPage.vue'
+import Contato from './views/Contato.vue'
+import Cursos from './views/Cursos.vue'
 
 Vue.use(Router)
 
@@ -19,6 +20,11 @@ export default new Router({
       path: "/contato",
       name: 'contato',
       component: Contato
+    },
+    {
+      path: "/cursos",
+      name: 'cursos',
+      component: Cursos
     }
   ]
 })

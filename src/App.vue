@@ -35,6 +35,10 @@ export default {
   color: #234;
  }
 
+ img {
+  max-width: 100%;
+ }
+
  a.router-link-active {
   color: #4b8;
  }
@@ -43,5 +47,26 @@ export default {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+ }
+
+ .v-enter {
+  opacity: 0;
+  transform: translate3d(-20px,0,0) 
+ }
+
+ .v-enter-active {
+  transition: all .3s;
+ }
+
+ .conteudo {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 400px);
+  grid-gap: 30px;
+ }
+
+ @media screen and (max-width: 400px) {
+  .contato {
+    display: block;
+  }
  }
 </style>

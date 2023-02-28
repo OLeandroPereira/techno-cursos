@@ -64,8 +64,8 @@ export default {
   grid-gap: 30px;
  }
 
- @media screen and (max-width: 400px) {
-  .contato {
+ @media screen and (max-width: 420px) {
+  .conteudo {
     display: block;
   }
  }

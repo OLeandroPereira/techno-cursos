@@ -15,7 +15,7 @@ methods: {
         setTimeout(() => {
           this.api = r;
           this.loading = false;
-        }, 1000)
+        })
       });
   }
 },

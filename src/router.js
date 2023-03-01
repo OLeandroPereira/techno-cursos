@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Contato from './views/Contato.vue'
 import Cursos from './views/Cursos.vue'
 import Curso from './views/Curso.vue'
+import Aula from './views/Aula.vue'
 
 Vue.use(Router)
 
@@ -32,6 +33,14 @@ export default new Router({
       name: 'curso',
       component: Curso,
       props: true,
+      children: [
+        {
+          path: ":aula",
+          name: "aula",
+          component: Aula,
+          props: true,
+        }
+      ]
     },
   ]
 })

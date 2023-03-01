@@ -38,6 +38,16 @@ export default {
 </script>
 
 <style>
+ html, body {
+  height: 100%;
+ }
+
+ body {
+  min-height: 100%;
+  margin: 0px;
+ }
+
+
 .cursos-lista li {
   margin-bottom: 40px;
   background: rgb(7, 7, 7);

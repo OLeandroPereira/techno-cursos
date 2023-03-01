@@ -19,30 +19,29 @@ export default {
 
 <style>
  body {
+  background: rgb(26, 30, 39);
   margin: 0px;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  color: #234;
+  color: rgb(255, 255, 255);
+ }
+
+ p {
+  color: rgb(159, 158, 158);
  }
  ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
  }
-
  a {
   font-weight: bold;
   text-decoration: none;
-  color: #234;
+  color: rgb(254, 255, 255);
  }
-
  img {
   max-width: 100%;
  }
-
- a.router-link-active {
-  color: #4b8;
- }
-
+ 
  .container {
   max-width: 800px;
   margin: 0 auto;

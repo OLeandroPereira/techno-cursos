@@ -6,7 +6,7 @@
   <transition>
     <div v-if="api">
       <h1>{{ api.titulo }}</h1>
-      <p>{{ api.descricao }}</p>
+      <h3>{{ api.descricao }}</h3>
       <ul>
         <li>
           <b>Email:</b>

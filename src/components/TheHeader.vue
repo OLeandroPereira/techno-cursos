@@ -2,7 +2,7 @@
   <header>
     <nav>
       <div class="logo">
-        <router-link to="/">Techno</router-link>
+        <router-link to="/">Tech Invest</router-link>
       </div>
       <ul>
         <li>
@@ -25,18 +25,23 @@ export default {
 
 <style scoped>
 header {
-  background: #234;
+  background: black;
 }
 
 header a {
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+header a:hover {
+  transition: 0.5s ease all;
+  color: rgb(10, 240, 244);
 }
 
 a.router-link-active {
-  color: #4b8;
+  color: rgb(10, 240, 244);
  }
 
-nav {
+ nav {
   max-width: 800px;
   margin: 0 auto;
   display: flex;
@@ -60,4 +65,5 @@ ul li {
 li a {
   padding: 0 10px;
 }
+
 </style>

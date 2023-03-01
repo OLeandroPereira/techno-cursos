@@ -40,14 +40,20 @@ export default {
 .aulas li a {
   display: block;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-  background: white;
+  background: rgb(240, 236, 233);
+  color: black;
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 4px;
 }
 
+.aulas li a:hover {
+  transition: 0.5s ease-in-out;
+  background-color: rgb(10, 240, 244);
+}
+
 .aulas li a.router-link-active {
-  background: #4b8;
-  color: white;
+  background: rgb(10, 240, 244);
+  color: rgb(68, 64, 64);
 }
 </style>

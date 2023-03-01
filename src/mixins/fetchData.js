@@ -12,10 +12,6 @@ methods: {
     fetch(`http://localhost:3000${url}`)
       .then(r => r.json())
       .then(r => {
-        setTimeout(() => {
-          this.api = r;
-          this.loading = false;
-        })
       });
   }
 },

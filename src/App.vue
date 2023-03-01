@@ -18,7 +18,12 @@ export default {
 
 
 <style>
+ html, body {
+  height: 100%;
+ }
+ 
  body {
+  min-height: 100%;
   background: rgb(26, 30, 39);
   margin: 0px;
   font-family: "Avenir", Helvetica, Arial, sans-serif;

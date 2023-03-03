@@ -57,7 +57,6 @@ h1 {
   font-size: 1rem;
   margin-top: 10px;
   margin-bottom: 40px;
-  box-shadow: 0 4px 2px rgba(208, 4, 4, 0.1);
   font-family: "Avenir", Arial, Helvetica, sans-serif ;
 }
 .btn-cursos:hover {

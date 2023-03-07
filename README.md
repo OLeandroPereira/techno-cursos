@@ -17,8 +17,8 @@ Funcionalidades
 O projeto Tech Invest possui as seguintes funcionalidades:
 
 Exibição de informações sobre investimentos em diferentes áreas: renda fixa, renda variável e fundos imobiliários
-Detalhamento de cada investimento, incluindo descrição, número de aulas e horas de duração do curso
-Opção de salvar os investimentos favoritos do usuário utilizando a funcionalidade de favoritos
+Detalhamento de cada investimento, incluindo descrição, número de aulas e horas de duração do curso.
+
 ```
 
 ### Tecnologias Utilizadas
